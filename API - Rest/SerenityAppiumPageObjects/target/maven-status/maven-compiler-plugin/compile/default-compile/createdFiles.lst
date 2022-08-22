@@ -1,0 +1,6 @@
+screens\HomeScreen.class
+screens\ChooseTopicsScreen.class
+base\ScreenBase.class
+screens\LoginScreen.class
+screens\SearchScreen.class
+steps\FlipboardSteps.class

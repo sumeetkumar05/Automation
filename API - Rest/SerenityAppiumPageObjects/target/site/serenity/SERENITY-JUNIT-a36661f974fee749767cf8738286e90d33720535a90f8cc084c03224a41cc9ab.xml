@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="testcases.SearchItemTest" skipped="0" tests="3" time="64.7" timestamp="2020-07-04 12:53:29"><testcase classname="testcases.SearchItemTest" name="Search Item Test"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+steps.FlipboardSteps.verifySearchText(FlipboardSteps.java:95)&#13;
+testcases.SearchItemTest.searchItemTest(SearchItemTest.java:45)&#13;
+</system-err></testcase></testsuite>

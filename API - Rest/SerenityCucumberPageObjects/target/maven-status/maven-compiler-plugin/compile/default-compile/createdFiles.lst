@@ -1,0 +1,6 @@
+base\BasePage.class
+pages\HondaCarPage.class
+pages\ToyotaCarPage.class
+pages\NewCarsPage.class
+steps\CarWaleSteps.class
+pages\HomePage.class

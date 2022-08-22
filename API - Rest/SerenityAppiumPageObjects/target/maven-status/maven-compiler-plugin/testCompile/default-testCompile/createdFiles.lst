@@ -1,0 +1,5 @@
+base\BaseTest.class
+testcases\SearchItemTest.class
+utilities\AppiumServer.class
+testcases\FlipBoardLoginTest.class
+testcases\SwipeTest.class

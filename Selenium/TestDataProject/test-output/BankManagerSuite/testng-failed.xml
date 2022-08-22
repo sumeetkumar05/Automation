@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BankManagerSuite]">
+  <test name="AddCustomerTest(failed)">
+    <classes>
+      <class name="com.w2a.suite.bankmanager.testcases.AddCustomerTest">
+        <methods>
+          <include name="addCustomerTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.w2a.suite.bankmanager.testcases.AddCustomerTest -->
+    </classes>
+  </test> <!-- AddCustomerTest(failed) -->
+  <test name="OpenAccountTest(failed)">
+    <classes>
+      <class name="com.w2a.suite.bankmanager.testcases.OpenAccountTest">
+        <methods>
+          <include name="openAccountTest" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- com.w2a.suite.bankmanager.testcases.OpenAccountTest -->
+    </classes>
+  </test> <!-- OpenAccountTest(failed) -->
+</suite> <!-- Failed suite [BankManagerSuite] -->

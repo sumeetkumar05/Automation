@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: testcases.SearchItemTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 105.764 s <<< FAILURE! - in testcases.SearchItemTest
+searchItemTest[1](testcases.SearchItemTest)  Time elapsed: 22.043 s  <<< FAILURE!
+java.lang.AssertionError
+	at testcases.SearchItemTest.searchItemTest(SearchItemTest.java:45)
+
+searchItemTest[2](testcases.SearchItemTest)  Time elapsed: 20.662 s  <<< FAILURE!
+java.lang.AssertionError
+	at testcases.SearchItemTest.searchItemTest(SearchItemTest.java:45)
+

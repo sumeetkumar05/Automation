@@ -1,0 +1,187 @@
+<html>
+<head>
+<title>TestNG:  OpenAccountTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>OpenAccountTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 26 18:28:35 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>54 seconds (54511 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.w2a.suite.bankmanager.testcases.OpenAccountTest.openAccountTest()'><b>openAccountTest</b><br>Test class: com.w2a.suite.bankmanager.testcases.OpenAccountTest<br>Parameters: {currency=Rupee, browser=chrome, Runmode=Y, customer=Harry Potter}</td>
+<td><div><pre>java.lang.AssertionError: Failing while clicking on an Elementprocess_CSS
+	at com.w2a.datadriven.base.TestBase.reportFailure(TestBase.java:218)
+	at com.w2a.datadriven.base.TestBase.click(TestBase.java:243)
+	at com.w2a.suite.bankmanager.testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:34)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace567679238", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace567679238'><pre>java.lang.AssertionError: Failing while clicking on an Elementprocess_CSS
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.w2a.datadriven.base.TestBase.reportFailure(TestBase.java:218)
+	at com.w2a.datadriven.base.TestBase.click(TestBase.java:243)
+	at com.w2a.suite.bankmanager.testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>44</td>
+<td>com.w2a.suite.bankmanager.testcases.OpenAccountTest@120d6fe6</td></tr>
+<tr>
+<td title='com.w2a.suite.bankmanager.testcases.OpenAccountTest.openAccountTest()'><b>openAccountTest</b><br>Test class: com.w2a.suite.bankmanager.testcases.OpenAccountTest<br>Parameters: {currency=Dollar, browser=chrome, Runmode=Y, customer=Ron Weasly}</td>
+<td><div><pre>java.lang.AssertionError: Failing while clicking on an Elementprocess_CSS
+	at com.w2a.datadriven.base.TestBase.reportFailure(TestBase.java:218)
+	at com.w2a.datadriven.base.TestBase.click(TestBase.java:243)
+	at com.w2a.suite.bankmanager.testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:34)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1585010037", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1585010037'><pre>java.lang.AssertionError: Failing while clicking on an Elementprocess_CSS
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.w2a.datadriven.base.TestBase.reportFailure(TestBase.java:218)
+	at com.w2a.datadriven.base.TestBase.click(TestBase.java:243)
+	at com.w2a.suite.bankmanager.testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>45</td>
+<td>com.w2a.suite.bankmanager.testcases.OpenAccountTest@120d6fe6</td></tr>
+<tr>
+<td title='com.w2a.suite.bankmanager.testcases.OpenAccountTest.openAccountTest()'><b>openAccountTest</b><br>Test class: com.w2a.suite.bankmanager.testcases.OpenAccountTest<br>Parameters: {currency=Pound, browser=firefox, Runmode=Y, customer=Hermoine Granger}</td>
+<td><div><pre>java.lang.AssertionError: Failing while clicking on an Elementprocess_CSS
+	at com.w2a.datadriven.base.TestBase.reportFailure(TestBase.java:218)
+	at com.w2a.datadriven.base.TestBase.click(TestBase.java:243)
+	at com.w2a.suite.bankmanager.testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:34)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1131829780", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1131829780'><pre>java.lang.AssertionError: Failing while clicking on an Elementprocess_CSS
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.w2a.datadriven.base.TestBase.reportFailure(TestBase.java:218)
+	at com.w2a.datadriven.base.TestBase.click(TestBase.java:243)
+	at com.w2a.suite.bankmanager.testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>53</td>
+<td>com.w2a.suite.bankmanager.testcases.OpenAccountTest@120d6fe6</td></tr>
+</table><p>
+</body>
+</html>

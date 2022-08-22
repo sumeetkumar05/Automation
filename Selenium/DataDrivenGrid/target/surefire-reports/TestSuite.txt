@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 55.597 sec <<< FAILURE! - in TestSuite
+openAccountTest(com.w2a.suite.bankmanager.testcases.OpenAccountTest)  Time elapsed: 44.266 sec  <<< FAILURE!
+java.lang.AssertionError: Failing while clicking on an Elementprocess_CSS
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.w2a.datadriven.base.TestBase.reportFailure(TestBase.java:218)
+	at com.w2a.datadriven.base.TestBase.click(TestBase.java:243)
+	at com.w2a.suite.bankmanager.testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:34)
+
+openAccountTest(com.w2a.suite.bankmanager.testcases.OpenAccountTest)  Time elapsed: 45.228 sec  <<< FAILURE!
+java.lang.AssertionError: Failing while clicking on an Elementprocess_CSS
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.w2a.datadriven.base.TestBase.reportFailure(TestBase.java:218)
+	at com.w2a.datadriven.base.TestBase.click(TestBase.java:243)
+	at com.w2a.suite.bankmanager.testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:34)
+
+openAccountTest(com.w2a.suite.bankmanager.testcases.OpenAccountTest)  Time elapsed: 53.582 sec  <<< FAILURE!
+java.lang.AssertionError: Failing while clicking on an Elementprocess_CSS
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.w2a.datadriven.base.TestBase.reportFailure(TestBase.java:218)
+	at com.w2a.datadriven.base.TestBase.click(TestBase.java:243)
+	at com.w2a.suite.bankmanager.testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:34)
+

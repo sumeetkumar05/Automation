@@ -1,0 +1,8 @@
+com\w2a\datadriven\base\TestBase.class
+com\w2a\suite\bankmanager\testcases\AddCustomerTest.class
+com\w2a\utilities\ExtentManager.class
+com\w2a\suite\bankmanager\testcases\OpenAccountTest.class
+com\w2a\utilities\ExcelReader.class
+com\w2a\utilities\DataUtil.class
+com\w2a\utilities\DataProviders.class
+com\w2a\utilities\Constants.class

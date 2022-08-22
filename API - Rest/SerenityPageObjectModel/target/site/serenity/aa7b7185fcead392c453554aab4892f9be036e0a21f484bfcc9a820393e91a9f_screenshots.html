@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Way2Automation Serenity Project</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e0b4686905040e0f97fee569e72f95f96f396667d725612bfccd903391fc87df.html">Car Price Test</a></span>
+                > <span class="truncate-60"><a
+                    href="aa7b7185fcead392c453554aab4892f9be036e0a21f484bfcc9a820393e91a9f.html">Car Price Test </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-06-2020 17:47</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Car Price Test</span>
+                                    <span class="badge tag-badge" style="">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Car Price Test
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Navigate<br>Find new cars: &lt;carbrand&gt;<br>Find nameand price<br>Update car price in file: &lt;carbrand&gt;</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="12635aa9b8949095e7e56bb8e89b04632a74db691590504fd66373f263bf46c7.png" title=" Car Price Test " width="1920"/>
+                <img src="12635aa9b8949095e7e56bb8e89b04632a74db691590504fd66373f263bf46c7.png" title=" Navigate" width="1920"/>
+                <img src="ae381a5c8a1935671ea8fd5bfb40eb95dfcf83f0c3c42470b05e83bbe7b3841c.png" title=" Find new cars: Honda" width="1920"/>
+                <img src="7ffc56354aa4b13bda597d0c03c04117a98888f7ee1ea00c9178eb7434005ad6.png" title=" Find new cars: Honda" width="1920"/>
+                <img src="242b69044769712d0c7bec8aed6fbd1e3e692090cef9d01a80030b6f3e7fe94b.png" title=" Find new cars: Honda (completed)" width="1920"/>
+                <img src="52c14bea4d9cde4212f0424dc7e6057ca4acb59413264089cb2e552a6f400c06.png" title=" Find nameand price" width="1920"/>
+                <img src="d73acf1c5cc51e6f4a9adb302537eb9469bb615f6d81740fe4253a51a31e77a5.png" title=" Find nameand price (completed)" width="1920"/>
+                <img src="d73acf1c5cc51e6f4a9adb302537eb9469bb615f6d81740fe4253a51a31e77a5.png" title=" Update car price in file: Honda" width="1920"/>
+                <img src="601f8ddcdd8fb03c2587c46ef40155c8a57b02e147a0ba8b80fd1f14817be97d.png" title=" Car Price Test " width="1920"/>
+                <img src="601f8ddcdd8fb03c2587c46ef40155c8a57b02e147a0ba8b80fd1f14817be97d.png" title=" Navigate" width="1920"/>
+                <img src="2b07a863f85b4d8dafbfc4a5bc7b302cc2cba0a902a07228556c42ff22bbd42c.png" title=" Find new cars: Hyundai" width="1920"/>
+                <img src="1e3a3266271d081df7ddef8360cb12d97dc644a424684682e5de779d9ad2edfa.png" title=" Find new cars: Hyundai" width="1920"/>
+                <img src="854c542f55027b2b637ac854cc808c4ae0fcd188ffd1e16f8985899922279563.png" title=" Find new cars: Hyundai (completed)" width="1920"/>
+                <img src="98263e6ec15db1f28e594788483403fad5d3e24701ca5aef59302b98fc5e97c8.png" title=" Find nameand price" width="1920"/>
+                <img src="2a946bd75452b899935b0f40e8d948f716a17541bdbd54cee38218ec2b3af47a.png" title=" Update car price in file: Hyundai" width="1920"/>
+                <img src="85a4e7708e04a81f69ea339a01be3ff6e968fa5dd5b7e73c75fb778e28e7e420.png" title=" Car Price Test " width="1920"/>
+                <img src="85a4e7708e04a81f69ea339a01be3ff6e968fa5dd5b7e73c75fb778e28e7e420.png" title=" Navigate" width="1920"/>
+                <img src="2eb453beaccd5a9c3ac095ff161130690b60eff1710819c1fea2ab8915931cd8.png" title=" Find new cars: Mahindra" width="1920"/>
+                <img src="475e0df618f8afa2d5c3d777ee71096c362462067f42d3b5b65ffe2077d7d22b.png" title=" Find new cars: Mahindra" width="1920"/>
+                <img src="673c993edee7bb4de6e3eead5534341d15d2af7b67d5ab5a62d749a40195c097.png" title=" Find new cars: Mahindra (completed)" width="1920"/>
+                <img src="1df4f37a44a50c62c60cca4fab5c4b79e0e8fec6e449e9dc5b3c0d237d5d33e8.png" title=" Find nameand price" width="1920"/>
+                <img src="1df4f37a44a50c62c60cca4fab5c4b79e0e8fec6e449e9dc5b3c0d237d5d33e8.png" title=" Update car price in file: Mahindra" width="1920"/>
+                <img src="2959f98985d8800299501beb8a741dc06649c23232776702c6a872fd03d7102a.png" title=" Car Price Test " width="1920"/>
+                <img src="2959f98985d8800299501beb8a741dc06649c23232776702c6a872fd03d7102a.png" title=" Navigate" width="1920"/>
+                <img src="50fb0e40f6ff998b795c6c258bfa139de9f278ec574ec3101a2a6e86d90c7884.png" title=" Find new cars: Toyota" width="1920"/>
+                <img src="5d5634389e55298576dbdbe42a5625c41fe42fc5e8d559bde17fd63cc3359296.png" title=" Find new cars: Toyota" width="1920"/>
+                <img src="b0f06592a5a5ff60aeac0bc88d3680a530320ea743026fc0a377ca7181df31d5.png" title=" Find new cars: Toyota (completed)" width="1920"/>
+                <img src="b397d30ee8f5f8ddbeac3870445b7b880d2f4948c93e5f4c2506e4fb302a79ec.png" title=" Find nameand price" width="1920"/>
+                <img src="b397d30ee8f5f8ddbeac3870445b7b880d2f4948c93e5f4c2506e4fb302a79ec.png" title=" Update car price in file: Toyota: <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.81</span>
+</div>
+</body>
+</html>

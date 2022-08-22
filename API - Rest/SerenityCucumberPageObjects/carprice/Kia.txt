@@ -1,0 +1,5 @@
+Kia car brand name and price
+Kia Seltos  price is :? 9.89 Lakh
+Kia Carnival  price is :? 24.95 Lakh
+Kia Sonet  price is :? 7 Lakh
+Kia Rio  price is :? 6 Lakh

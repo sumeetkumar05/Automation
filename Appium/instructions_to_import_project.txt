@@ -1,0 +1,34 @@
+Important Note: If you are using a different Java JDK version than the one used in the project, you may get below error. This is expected since the project is configured to use a different Java version than yours.
+
+Error: 
+IntelliJ: Cannot run program "C:\Program Files\Java\jdk-17\bin\java.exe"
+Eclipse: The project cannot be built until build path errors are resolved
+
+To resolve this error, follow below steps.
+
+IntelliJ IDE:
+==========
+1. Open pom.xml and update below properties to your Java version (that is currently configured as your JAVA_HOME path). Just mention the major version. For e.g. for Java 15.0.2, mention 15.
+        <maven.compiler.source>15</maven.compiler.source>
+        <maven.compiler.target>15</maven.compiler.target>
+
+2. Select your project root folder. Then go to File -> Project Structure.
+Under Project settings, select "Project" tab.
+For "Project SDK", select your Java JDK that is currently configured as your JAVA_HOME path.
+For "Project language level", you can select the language level as per your Java JDK version. For e.g. if the Java JDK version is 15, then you can select "15 - Text blocks"
+Build the project and you should be good.
+
+Eclipse IDE:
+==========
+
+1. Open pom.xml and update below properties to your Java version (that is currently configured as your JAVA_HOME path). Just mention the major version. For e.g. for Java 15.0.2, mention 15.
+        <maven.compiler.source>15</maven.compiler.source>
+        <maven.compiler.target>15</maven.compiler.target>
+
+2. Select your project root folder. Then navigate to File -> Properties
+Select "Java Build Path"
+Select "Libraries" tab and select the "JRE System Library"
+Click Edit
+Then select "Workspace default JRE" [It should match the Java JDK version that is your JAVA_HOME path]
+Apply and Close
+Restart the IDE and you should be good.

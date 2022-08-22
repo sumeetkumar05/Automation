@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 87.098 sec <<< FAILURE! - in TestSuite
+flightSearchTest(com.w2a.testcases.FlightSearchTest)  Time elapsed: 11.014 sec  <<< FAILURE!
+java.lang.AssertionError: expected [7] but found [6]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.w2a.errorcollectors.ErrorCollector.assertEquals(ErrorCollector.java:38)
+	at com.w2a.errorcollectors.ErrorCollector.verifyEquals(ErrorCollector.java:102)
+	at com.w2a.testcases.FlightSearchTest.flightSearchTest(FlightSearchTest.java:34)
+

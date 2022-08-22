@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39949" started-at="2021-12-10T08:48:41Z" finished-at="2021-12-10T08:49:21Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="33131" started-at="2021-12-10T08:48:41Z" finished-at="2021-12-10T08:49:15Z">
+      <class name="grid.TestParallel">
+        <test-method status="PASS" signature="doLogin(java.lang.String)[pri:0, instance:grid.TestParallel@20322d26]" name="doLogin" duration-ms="33103" started-at="2021-12-10T08:48:41Z" finished-at="2021-12-10T08:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- grid.TestParallel -->
+    </test> <!-- Chrome Test -->
+    <test name="Firefox Test" duration-ms="39949" started-at="2021-12-10T08:48:41Z" finished-at="2021-12-10T08:49:21Z">
+      <class name="grid.TestParallel">
+        <test-method status="PASS" signature="doLogin(java.lang.String)[pri:0, instance:grid.TestParallel@5f9d02cb]" name="doLogin" duration-ms="39920" started-at="2021-12-10T08:48:41Z" finished-at="2021-12-10T08:49:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- grid.TestParallel -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Suite -->
+</testng-results>

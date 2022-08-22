@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54998" started-at="2020-05-01T16:54:28Z" finished-at="2020-05-01T16:55:23Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runners.PositiveTest@78186a70]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="54998" started-at="2020-05-01T16:54:28Z" finished-at="2020-05-01T16:55:23Z">
+      <class name="runners.PositiveTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.PositiveTest@78186a70]" name="setUpClass" is-config="true" duration-ms="154" started-at="2020-05-01T16:54:28Z" finished-at="2020-05-01T16:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runners.PositiveTest@78186a70]" name="runScenario" duration-ms="54693" started-at="2020-05-01T16:54:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-01T16:55:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Search Cars Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Acceptance testing to validate Search Cars Page is working."]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: 1 SERIES
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 1 SERIES
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+at pages.actions.CarSearchPageActions.selectCarModel(CarSearchPageActions.java:43)
+at steps.SearchCarsSteps.select_car_model(SearchCarsSteps.java:53)
+at ✽.select "1 SERIES" as car model(file:src/test/resources/FeatureFiles/SearchCars.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.PositiveTest@78186a70]" name="tearDownClass" is-config="true" duration-ms="109" started-at="2020-05-01T16:55:23Z" finished-at="2020-05-01T16:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.PositiveTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

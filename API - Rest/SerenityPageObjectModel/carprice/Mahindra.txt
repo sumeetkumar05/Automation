@@ -1,0 +1,24 @@
+Mahindra car brand name and price
+Mahindra XUV300  price is :? 8.3 Lakh
+Mahindra Scorpio  price is :? 12.46 Lakh
+Mahindra Bolero  price is :? 7.99 Lakh
+Mahindra XUV500  price is :? 13.27 Lakh
+Mahindra Thar  price is :? 9.64 Lakh
+Mahindra Marazzo  price is :? 10 Lakh
+Mahindra TUV300  price is :? 8.59 Lakh
+Mahindra KUV100 NXT  price is :? 5.6 Lakh
+Mahindra Alturas G4  price is :? 28.69 Lakh
+Mahindra TUV300 PLUS  price is :? 9.98 Lakh
+Mahindra Xylo  price is :? 9.58 Lakh
+Mahindra e2o PLUS  price is :? 7.48 Lakh
+Mahindra Verito  price is :? 7.45 Lakh
+Mahindra Verito Vibe CS  price is :? 6.55 Lakh
+Mahindra e20 NXT  price is :? 6 Lakh
+Mahindra New Thar  price is :? 8 Lakh
+Mahindra TUV300 Plus Facelift  price is :? 10 Lakh
+Mahindra New Scorpio  price is :? 10 Lakh
+Mahindra New XUV500  price is :? 13 Lakh
+Mahindra New TUV300  price is :? 8 Lakh
+Mahindra eKUV100  price is :? 8 Lakh
+Mahindra S204  price is :? 11 Lakh
+Mahindra eXUV300  price is :? 14 Lakh

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="15" guice-stage="DEVELOPMENT" name="Failed suite [Abhigya Cucumber Practice]" parallel="classes">
+  <test name="Login test">
+    <packages>
+      <package name="runners.*"/>
+    </packages>
+    <classes>
+      <class name="runners.NegativeTest"/>
+      <class name="runners.PositiveTest"/>
+      <class name="runners.RechargeTest"/>
+      <class name="runners.SampleTest"/>
+    </classes>
+  </test> <!-- Login test -->
+  <test name="Login test(failed)" parallel="classes">
+    <classes>
+      <class name="runners.PositiveTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0 1 2"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runners.PositiveTest -->
+      <class name="runners.NegativeTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runners.NegativeTest -->
+      <class name="runners.SampleTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runners.SampleTest -->
+      <class name="runners.RechargeTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runners.RechargeTest -->
+    </classes>
+  </test> <!-- Login test(failed) -->
+</suite> <!-- Failed suite [Abhigya Cucumber Practice] -->
